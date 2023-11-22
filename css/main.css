@@ -1,0 +1,87 @@
+:root{
+    --boto:#e9e9ea;
+}
+
+body{           
+    margin: 0px;
+    padding: 0px;
+    font-size: 13 px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+    background-color: #f1f3f6;  
+    box-sizing: border-box;  
+}
+
+img{
+    width: 350px; 
+    height: 200px; 
+}
+
+#texto_facebook{
+    color: #0c0d11;
+    font-size: 35px;
+}
+
+.contenedor{
+    width: 350px; 
+    height: 300px; 
+}
+
+.sombra{  /*La sombra que se muestra en el apartado de contacto*/
+    /*Fragmento de codigo que sacamos de la pagina*/
+    box-shadow: 0px 0px 5px 0px rgba(112,112,112,0.48);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(112,112,112,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(112,112,112,0.5);
+    background-color: var(--blanco); 
+    padding: 2rem;
+    border-radius: 1rem; /*Redondeo*/
+}
+.formulario{
+    justify-content: flex-end;
+    display: flexbox;
+}
+
+.formulario fieldset{
+    border: none;
+ }
+
+#letras{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1d2eca;
+ }
+
+.boton{
+    text-align: center;
+    background-color: #1d2eca;
+    text-decoration: none;
+    padding: 1rem 3rem; /*El 3rem es para las esquinas redondeadas*/
+    border-radius: .5rem;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1rem;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.boton2{
+    text-align: center;
+    background-color: #1dca48;
+    text-decoration: none;
+    padding: 1rem 3rem; /*El 3rem es para las esquinas redondeadas*/
+    border-radius: .5rem;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1rem;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+}
+
+.contenedor-campos{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    grid-template-rows: auto auto 20rem;
+}
